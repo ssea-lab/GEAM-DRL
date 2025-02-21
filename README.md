@@ -1,6 +1,5 @@
 # GEAM-DRL
 
-## Introduction
 
 Mobile edge computing deploys computational resources closer to the data sources to support low-latency services. However, edge servers have limited resources and coverage areas, making it challenging to dynamically assign mobile users to the best possible edge servers. While existing methods can achieve optimal solutions in small-scale scenarios, they struggle to meet the demands of massive user dynamism and real-time allocation. In this study, we address this problem, called dynamic edge user assignment (EUA), through a graph encoding attention model based on deep reinforcement learning (GEAM-DRL). To precisely capture the relationship and distance between edge servers, we employ a graph neural network (GNN); by simplifying the GNN decoder, we notably speed up model inference, thus ensuring real-time requirements of dynamic EUA. Experiments based on a real-world dataset demonstrate that, compared to current state-of-the-art methods, our model significantly optimizes user latency, reducing it by 12%, and lowers the long-term average leasing cost of edge servers, saving between 10% and 15%. Thus, our approach can make an optimal trade-off by enhancing cost-effectiveness while ensuring real-time performance for dynamic EUA.
 
