@@ -1,0 +1,31 @@
+03-23 16:27:02: - capacity      R: 0.738360    user_props: 0.977457    server_costs: 162.209562    capacity_props: 0.233527    user_experience: 1.243193    server_props: 0.796524
+03-23 16:27:02: - distance      R: 0.783783    user_props: 0.960755    server_costs: 150.237019    capacity_props: 0.248189    user_experience: 1.319376    server_props: 0.755552
+03-23 16:27:02: - random        R: 0.735413    user_props: 0.966533    server_costs: 158.238440    capacity_props: 0.237469    user_experience: 1.233357    server_props: 0.796809
+03-23 16:27:02: - fuzzy         R: 0.754444    user_props: 0.966030    server_costs: 141.004354    capacity_props: 0.275936    user_experience: 1.232953    server_props: 0.708858
+03-23 16:27:02: - mcf           R: 0.792560    user_props: 0.966325    server_costs: 107.055692    capacity_props: 0.348683    user_experience: 1.236437    server_props: 0.516213
+03-23 16:27:02: - model         R: 0.806610    user_props: 0.967755    server_costs: 89.160027    capacity_props: 0.371974    user_experience: 1.241246    server_props: 0.518541
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

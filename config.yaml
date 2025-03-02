@@ -1,0 +1,36 @@
+train:
+  batch_size: 2
+  use_cuda: True
+  lr: 1.0e-4
+  lr_decay: 0.96
+  beta: 0.9
+  max_grad_norm: 2.
+  epochs: 50
+  train_type: 'SCST'
+  wait_best_reward_epoch: 5
+  save_model_epoch_interval: 5
+  dir_name: 'D:/DynamicEUA'
+  device: 'cuda:0'
+data:
+  x_end: 0.9
+  y_end: 1
+  miu: 35
+  sigma: 10
+  max_cov: 1.5
+  total_sec: 100
+  user_num_per_sec: 10
+  user_stay_miu: 30
+  user_stay_sigma: 5
+  data_size:
+    train: 100
+    valid: 10
+    test: 10
+model:
+  hidden_dim: 256
+  exploration_c: 10
+  server_embedding_type: 'gnn'
+  need_continue: False
+  continue_lr: 0
+  continue_model_filename: "D:/Downloads/03222246_96.20_8438.23_39.34_1.23.mdl"
+env:
+  capacity_reward_rate: 0.5
